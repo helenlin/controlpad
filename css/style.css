@@ -130,6 +130,18 @@ table {
     margin:auto;
    background-color: transparent;
    padding: 70px;
+
+     font-size: 42px;
+  text-align: center;
+  color: aliceblue;
+  font-weight: bold;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
 }
 
 #myVideo {
@@ -155,3 +167,33 @@ table {
     
 }
 
+
+
+
+@keyframes pulse {
+    from {font-size: 32px;}
+    to {font-size: 40px;}
+}
+
+.headline{
+  text-align: left;
+  font-size: 42px;
+  color: #141432;
+  font-weight: bold;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+}
+
+.best{
+  margin-top: 20px;
+}
